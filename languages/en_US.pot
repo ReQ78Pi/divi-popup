@@ -1,0 +1,77 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Divi Popup\n"
+"POT-Creation-Date: 2021-09-21 19:04+0300\n"
+"PO-Revision-Date: 2021-09-20 23:10+0300\n"
+"Last-Translator: \n"
+"Language-Team: Alexey Ohogin\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;__\n"
+"X-Poedit-SearchPath-0: divi-popup.php\n"
+"X-Poedit-SearchPath-1: single-divi-popup.php\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: src\n"
+
+#: divi-popup.php:144 divi-popup.php:145 divi-popup.php:146
+msgid "Divi Popup"
+msgstr ""
+
+#: divi-popup.php:147 divi-popup.php:150
+msgid "Add New Popup"
+msgstr ""
+
+#: divi-popup.php:149
+msgid "All Popups"
+msgstr ""
+
+#: divi-popup.php:151
+msgid "Add New"
+msgstr ""
+
+#: divi-popup.php:152
+msgid "New Item"
+msgstr ""
+
+#: divi-popup.php:204
+msgid "Divi Popup Settings"
+msgstr ""
+
+#: divi-popup.php:235
+msgid "Background Color"
+msgstr ""
+
+#: divi-popup.php:236
+msgid "Set the background color of the popup"
+msgstr ""
+
+#: divi-popup.php:245
+msgid "Background Blur Effect"
+msgstr ""
+
+#: divi-popup.php:246
+msgid "Set the level of background blur"
+msgstr ""
+
+#: divi-popup.php:255
+msgid "Popup class"
+msgstr ""
+
+#: divi-popup.php:256
+msgid "Set a unique class for the popup"
+msgstr ""
+
+#: divi-popup.php:257
+msgid "E.g. new-popup-one"
+msgstr ""
+
+#: divi-popup.php:265
+msgid "Use this class as link (menu link, button) url e.g., #new-popup-one"
+msgstr ""

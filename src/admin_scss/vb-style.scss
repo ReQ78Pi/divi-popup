@@ -1,0 +1,52 @@
+
+  /*------------------------------------------------------------------------------------
+  Style for Visual Builder
+  -------------------------------------------------------------------------------------*/
+
+  html.et-fb-preview--zoom .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #divi-popup #divi-popup-wrapper {
+  	display: flex;
+  	justify-content: center;
+  	align-items: stretch;
+  	height: 100vh;
+  }
+
+  .et-fb-preview--desktop .divi-popup-template-default.single-divi-popup .et-fb-root-ancestor #main-header,
+  .et-fb-preview--desktop .divi-popup-template-default.single-divi-popup .et-fb-root-ancestor #main-footer,
+  .et-fb-preview--wireframe .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #main-header,
+  .et-fb-preview--wireframe .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #main-footer,
+  .et-fb-preview--tablet .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #main-header,
+  .et-fb-preview--tablet .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #main-footer,
+  .et-fb-preview--phone .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #main-header,
+  .et-fb-preview--phone .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #main-footer,
+  .et-fb-preview--zoom .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #main-header,
+  .et-fb-preview--zoom .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #main-footer {
+  	display: none;
+  }
+
+  .et-fb-preview--desktop .divi-popup-template-default.single-divi-popup .et-fb-root-ancestor #divi-popup,
+  .et-fb-preview--wireframe .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #divi-popup,
+  .et-fb-preview--tablet .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #divi-popup,
+  .et-fb-preview--phone .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #divi-popup,
+  .et-fb-preview--zoom .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #divi-popup {
+  	visibility: visible;
+  	opacity: 1;
+  	position: relative;
+  	z-index: auto;
+  }
+
+  .et-fb-preview--desktop .divi-popup-template-default.single-divi-popup .et-fb-root-ancestor #divi-popup #divi-popup-wrapper,
+  .et-fb-preview--wireframe .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #divi-popup #divi-popup-wrapper,
+  .et-fb-preview--tablet .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #divi-popup #divi-popup-wrapper,
+  .et-fb-preview--phone .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #divi-popup #divi-popup-wrapper,
+  .et-fb-preview--zoom .divi-popup-template-default.single-divi-popup .et-fb-iframe-ancestor #divi-popup #divi-popup-wrapper {
+  	top: auto;
+  	transform: none;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	height: calc(100vh - 32px);
+  }
+
+  .et-fb-preview--wireframe .divi-popup-template-default #divi-popup button#divi-popup-close {
+  	display:  none;
+  }

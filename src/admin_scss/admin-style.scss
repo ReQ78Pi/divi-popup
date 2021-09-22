@@ -1,0 +1,54 @@
+
+  /*------------------------------------------------------------------------------------
+  Admin plugin style
+  -------------------------------------------------------------------------------------*/
+  
+  #divi_popup_metabox {
+
+    .wp-picker-container {
+
+      button.wp-picker-open,
+      label .color-picker {
+        margin-bottom: 10px;
+      }
+
+      input.wp-picker-default {
+        margin-left: 0;
+      }
+
+      .wp-color-result-text {
+        position: relative;
+        z-index: 10;
+      }
+    }
+
+    .wp-picker-holder {
+      position: absolute;
+
+      .iris-picker {
+        border-radius: 2px;
+        border-color: #e2e4e7;
+        margin-top: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.11);
+
+        .iris-square {
+          border-radius: 2px;
+          box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.11);
+        }
+
+      }
+    }
+    
+    input {
+      width: 90%;
+    }
+
+    .wp-color-result:after {
+      display:  none;
+    }
+
+    .wp-color-result {
+      box-shadow: none;
+    }
+
+  }

@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Divi Popup\n"
+"POT-Creation-Date: 2021-09-21 19:04+0300\n"
+"PO-Revision-Date: 2021-09-21 19:09+0300\n"
+"Last-Translator: \n"
+"Language-Team: Alexey Ohogin\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;__\n"
+"X-Poedit-SearchPath-0: divi-popup.php\n"
+"X-Poedit-SearchPath-1: single-divi-popup.php\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: src\n"
+
+#: divi-popup.php:144 divi-popup.php:145 divi-popup.php:146
+msgid "Divi Popup"
+msgstr "Divi Popup"
+
+#: divi-popup.php:147 divi-popup.php:150
+msgid "Add New Popup"
+msgstr "Добавить всплывающее окно"
+
+#: divi-popup.php:149
+msgid "All Popups"
+msgstr "Все окна"
+
+#: divi-popup.php:151
+msgid "Add New"
+msgstr "Добавить новое"
+
+#: divi-popup.php:152
+msgid "New Item"
+msgstr "Новое окно"
+
+#: divi-popup.php:204
+msgid "Divi Popup Settings"
+msgstr "Настройки окна"
+
+#: divi-popup.php:235
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: divi-popup.php:236
+msgid "Set the background color of the popup"
+msgstr "Установите цвет фона всплывающего окна"
+
+#: divi-popup.php:245
+msgid "Background Blur Effect"
+msgstr "Эффект размытия фона"
+
+#: divi-popup.php:246
+msgid "Set the level of background blur"
+msgstr "Установите уровень размытия фона всплывающего окна"
+
+#: divi-popup.php:255
+msgid "Popup class"
+msgstr "Класс окна"
+
+#: divi-popup.php:256
+msgid "Set a unique class for the popup"
+msgstr "Установите уникальный класс для всплывающего окна"
+
+#: divi-popup.php:257
+msgid "E.g. new-popup-one"
+msgstr "Например, new-popup-one"
+
+#: divi-popup.php:265
+msgid "Use this class as link (menu link, button) url e.g., #new-popup-one"
+msgstr ""
+"Используйте этот класс как адрес ссылки (в меню, кнопке), например #new-"
+"popup-one"
+
+#~ msgid ""
+#~ "Set a unique class for the popup. Use this class for link (e.g., #new-"
+#~ "popup-one)"
+#~ msgstr ""
+#~ "Установите уникальный класс для всплывающего окна. Используйте этот класс "
+#~ "для ссылки (например, #new-popup-one)"
