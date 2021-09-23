@@ -319,7 +319,7 @@ new divi_Popup_Metabox;
     wp_reset_query();
   }
 
-  add_action( 'wp_head', 'divi_popup_enque', 99 );
+  add_action( 'wp_head', 'divi_popup_enque' );
 
 
   /*------------------------------------------------------------------------------------
@@ -348,7 +348,7 @@ new divi_Popup_Metabox;
     require_once( DIVI_POPUP_PLUGIN_DIR . 'single-divi-popup.php' );
   }
 
-  add_action( 'wp_footer', 'display_divi_popup', 100 );
+  add_action( 'wp_footer', 'display_divi_popup' );
 
 
   /*------------------------------------------------------------------------------------
